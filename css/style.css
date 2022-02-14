@@ -655,7 +655,7 @@ table h3 {
     left: 50%;
     bottom: 26%;
     border-radius: 50%;
-    background: var(--dark);
+    background: #cad8fa;
     animation: animation-1 2s linear infinite;
 }
 
@@ -711,7 +711,7 @@ table h3 {
     left: 15%;
     top: 5%;
     border-radius: 50%;
-    background: #cad8fa;
+    background: #cad8fa; 
     animation: animation-1 2s linear infinite;
 }
 
