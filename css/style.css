@@ -622,10 +622,10 @@ table h3 {
 .header-hero .shape.shape-2 {
     width: 39px;
     height: 39px;
-    left: 150px;
-    bottom: 40px;
+    left: 250px;
+    bottom: 20px;
     border-radius: 50%;
-    background: #0898e7;
+    background: #ecf4f8;
     animation: animation-1 2s linear infinite;
 }
 
@@ -645,7 +645,7 @@ table h3 {
     left: 40%;
     top: 175px;
     border-radius: 50%;
-    background: #4ebaf5;
+    background: #ebf6fc;
     animation: animation-1 2s linear infinite;
 }
 
@@ -655,7 +655,7 @@ table h3 {
     left: 50%;
     bottom: 26%;
     border-radius: 50%;
-    background: var(--primary);
+    background: var(--dark);
     animation: animation-1 2s linear infinite;
 }
 
@@ -666,6 +666,71 @@ table h3 {
     bottom: 70%;
     border-radius: 50%;
     background: #4ebaf5;
+    animation: animation-1 2s linear infinite;
+}
+
+.header-hero .shape.shape-7 {
+    width: 14px;
+    height: 14px;
+    right: 25%;
+    bottom: 25%;
+    border-radius: 50%;
+    background: #b0e1ff;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-8 {
+    width: 14px;
+    height: 14px;
+    left: 25%;
+    bottom: 25%;
+    border-radius: 50%;
+    background: #4255c4;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-9 {
+    width: 54px;
+    height: 54px;
+    right: 25%;
+    bottom: 12%;
+    border-radius: 50%;
+    background: #4ebaf5;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-10 {
+    width: 20px;
+    height: 20px;
+    left: 25%;
+    top: 25%;
+    border-radius: 50%;
+    background: #668496;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-11 {
+    width: 44px;
+    height: 44px;
+    left: 15%;
+    top: 5%;
+    border-radius: 50%;
+    background: #cad8fa;
+    animation: animation-1 2s linear infinite;
+}
+
+.header-hero .shape.shape-12 {
+    width: 35px;
+    height: 35px;
+    left: 10%;
+    bottom: 10%;
+    border-radius: 50%;
+    background: #0898ef;
+    animation: animation-1 2s linear infinite;
+}
+.header-hero .shape.shape-13 {
+    width: 24px;
+    height: 24px;
+    right: 5%;
+    bottom: 5%;
+    border-radius: 50%;
+    background: #346ac0;
     animation: animation-1 2s linear infinite;
 }
 
@@ -1259,6 +1324,12 @@ table h3 {
         transform: rotate(0deg);
     }
 } */
+
+@media (max-width: 768px) {
+    #featurestry .card {
+        height: 100vh;
+    }
+}
 
 @media (max-width: 425px) {
     #featurestry .card {
